@@ -1,12 +1,12 @@
-# print("Hello world")
-# sabari = "Hai my name is sabari"
-# sabari = "im naveen"
-# sabari = 22
-# print(type(sabari),sabari)
-# sabari = "22"
-# naveen = "44"
-# print(sabari+naveen)
-# print(int(sabari)+float(naveen))
+print("Hello world")
+sabari = "Hai my name is sabari"
+sabari = "im naveen"
+sabari = 22
+print(type(sabari),sabari)
+sabari = "22"
+naveen = "44"
+print(sabari+naveen)
+print(int(sabari)+float(naveen))
 # sab = "Naveen"
 # nav = "kumar"
 # print(sab + " " + nav)
