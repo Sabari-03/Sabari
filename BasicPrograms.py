@@ -135,13 +135,12 @@
 # b = int(b)
 # ans = calc(a,b,c)
 # print(ans)
-def numCheck(d):
-    if d <= 0:
-        return d
-    elif d > 100:
-        return d
-    else:
-        return d
+def numCheck(a):
+    if a <= 0:
+        return "Less than zero"
+    else :
+        return "Greater than Mark"
+
 def mark(a) :
     if a == 100 :
         return "A+"
@@ -151,13 +150,11 @@ def mark(a) :
         return "B+"
     elif a >= 40 and a < 60 :
         return "B"
-    elif a < 40 :
+    elif a < 40 and a >= 1 :
         return "F"
-    elif :
-        ans = numCheck(d)
+    else :
+        ans = numCheck(a)
         return ans
-    else  :
-        return d
 
 
 a = input("Enter Mark")
