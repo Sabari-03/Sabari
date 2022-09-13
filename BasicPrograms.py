@@ -1,13 +1,13 @@
-print("Hello world")
-sabari = "Hai my name is sabari"
-sabari = "im naveen"
-sabari = 22
-print(type(sabari),sabari)
-sabari = "22"
-naveen = "44"
-print(sabari+naveen)
-print(int(sabari)+float(naveen))
-# sab = "Naveen"
+# print("Hello world")
+# sabari = "Hai my name is sabari"
+# sabari = "im naveen"
+# sabari = 22
+# print(type(sabari),sabari)
+# sabari = "22"
+# naveen = "44"
+# print(sabari+naveen)
+# print(int(sabari)+float(naveen))
+# # sab = "Naveen"
 # nav = "kumar"
 # print(sab + " " + nav)
 # sabari = int(input("Enter your name"))
@@ -60,27 +60,46 @@ print(int(sabari)+float(naveen))
 # name = 10
 # ss = findOddOrEven(name)
 # print(ss)
+#
+# def calculator(a,b,c):
+#     if c == "+":
+#         d = int(a) + int(b)
+#         return "d = {0}".format(d)
+#     elif c == "-":
+#         d = int(a) - int(b)
+#         if d < 0:
+#             d = d * -1
+#             print("d = {0}".format(d))
+#         elif d > 0:
+#             print("d = {0}".format(d))
+#         else:
+#             print("d = 0")
+#     elif c == "*":
+#         print(int(a) * int(b))
+#     else:
+#         print("Unidentified Symbol")
+#
+# a = input("Enter Value")
+# b = input("Enter Value")
+# c = input("Enter Symbol")
+# print(calculator(a,b,c))
+# # print(ans)
 
-def calculator(a,b,c):
-    if c == "+":
-        d = int(a) + int(b)
-        return "d = {0}".format(d)
-    elif c == "-":
-        d = int(a) - int(b)
-        if d < 0:
-            d = d * -1
-            print("d = {0}".format(d))
-        elif d > 0:
-            print("d = {0}".format(d))
-        else:
-            print("d = 0")
-    elif c == "*":
-        print(int(a) * int(b))
-    else:
-        print("Unidentified Symbol")
+def value(a,b):
+    print(a + b)
+    print(a - b)
+    print(a * b)
+a = int(input("Enter value"))
+b = int(input("Enter value"))
+value(a,b)
 
-a = input("Enter Value")
-b = input("Enter Value")
-c = input("Enter Symbol")
-print(calculator(a,b,c))
+
+# def calc(a,b):
+#     c = (a // b) , (a / b)
+#     return c
+#
+# a = int(input("Enter Value"))
+# b = int(input("Enter value"))
+#
+# ans = calc(a,b)
 # print(ans)
