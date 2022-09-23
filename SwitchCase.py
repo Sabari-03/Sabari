@@ -80,31 +80,47 @@
 # #     print(list1[i])
 # #     # Dinner poitu varan ok va okok
 
-1 Print elements one by one present in a list
-a = [1,2,3,4,5]
-for i in range(0, len(a), 1):
-    print(a[i])
+# 1 Print elements one by one present in a list
+# a = [1,2,3,4,5]
+# for i in range(0, len(a), 1):
+#     print(a[i])
 # 2 Print a range with given a and b
+# a = int(input("Enter number"))
+# b = int(input("enter number"))
+# for i in range(a+3 ,b-2 ,1) :
+#     print(i)
 
-# 3 Print 13 table with 10
-a = int(input("Enter a number"))
-b = int(input("Enter a range"))
-for i in range(1, b+1, 1) :
-    print(i,"*",a,"=",i*a)
-# 4 append empty list with given range with getting input
-ans1 = int(input("Enter a number"))
-ans2 = []
-for i in range(0, len(ans1) , 1):
-    ans2.append(ans1[i])
-print(ans2)
-5.break and continue(create a list with fruits, if "" == list in fruit break, continue
-list1=["banana","apple","orange","grap"]
-for i in list1:
-    if i == "orange":
-        continue
-    print(i)
-list1=["banana","apple","orange","grap"]
-for i in list1:
-    if i == "orange":
-        break
-    print(i)
+# # 3 Print 13 table with 10
+# a = int(input("Enter a number"))
+# b = int(input("Enter a range"))
+# for i in range(1, b+1, 1) :
+#     print(i,"*",a,"=",i*a)
+# # 4 append empty list with given range with getting input
+# ans1 = int(input("Enter a range"))
+# ans2 = ["nav",1]
+# for i in range(0, ans1 , 1):
+#     a = input("Enter name")
+#     ans2.append(a)
+# print(ans2)
+# print(len(ans2))
+# print(type(ans2[0]))
+# 5.break and continue(create a list with fruits, if "" == list in fruit break, continue
+# list1=["banana","apple","orange","grap"]
+# for i in list1:
+#     if i == "orange":
+#         continue
+#     print(i)
+# list1=["banana","apple","orange","grap"]
+# for i in list1:
+#     if i == "orange":
+#         break
+#     print(i)
+def sab(b) :
+    x = int(input("Enter a range "))
+    b =  [ ]
+for i in range(0 , x , 1):
+    a = input("Enter name")
+    b.append(a)
+        if b == a[i]:
+        return "i"
+print(b)
