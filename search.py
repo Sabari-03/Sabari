@@ -130,3 +130,4 @@ def sab(n) :
 n=input("enter string")
 ans=sab(n)
 print(ans)
+b
