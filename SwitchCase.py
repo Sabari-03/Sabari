@@ -115,12 +115,18 @@
 #     if i == "orange":
 #         break
 #     print(i)
-def sab(b) :
+def sab(n) :
     x = int(input("Enter a range "))
     b =  [ ]
-for i in range(0 , x , 1):
-    a = input("Enter name")
-    b.append(a)
-        if b == a[i]:
-        return "i"
-print(b)
+    for i in range(0, x, 1):
+        a = input("Enter name")
+        b.append(a)
+    for i in range (0, len(b), 1):
+        if n == b[i]:
+            return i
+    else:
+        return "not found"
+
+n=input("enter string")
+ans=sab(n)
+print(ans)
