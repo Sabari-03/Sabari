@@ -131,28 +131,30 @@
 # ans=sab(n)
 # print(ans)
 #
+def lenier(a,b) :
+    c = []
+    c1 = []
+    for i in range(0, b, 1):
+        d = input("Enter a input")
+        c.append(d)
+    print(c)
+    for i in range(1, 8, 1):
+        print(c[i])
+        c1.append(c[i])
+    print(c1)
+
+    for i in range(0, len(c1), 1):
+        if c1[i] == a:
+            print(i)
+            break
+    else:
+        if len(c) > 0:
+            for i in range(0, len(c), 1):
+                if c[i] == a:
+                    print(i)
+                    break
+            else:
+                print("Not found")
 a = input("Enter a string")
 b = int(input("enter a range"))
-c = []
-c1 = []
-for i in range(0 , b, 1):
-    d = input("Enter a input")
-    c.append(d)
-print(c)
-for i in range(1 ,8 ,1):
-    print(c[i])
-    c1.append(c[i])
-print(c1)
-
-for i in range(0, len(c1), 1):
-    if c1[i] == a:
-        print(i)
-        break
-else :
-    if len(c) > 0:
-        for i in range(0, len(c), 1):
-            if c[i] == a:
-                print(i)
-                break
-        else:
-            print("Not found")
+lenier(a,b)
